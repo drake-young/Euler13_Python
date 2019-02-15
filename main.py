@@ -28,6 +28,8 @@ def problem_13( ):
     # Calculate Execution Time
     end_time = default_timer( )
     execution_time  =  ( end_time - start_time ) * 1000
+
+    # Display Results
     print( "   First Ten Digits of Sum:   %s"      %  first_ten_digits )
     print( "   Computation Time:          %.3fms"  %  execution_time )
     return
